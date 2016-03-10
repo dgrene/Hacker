@@ -113,4 +113,27 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 for Step 2) its simple Array formation, traverse array, % and /  each number by 10 and get digits :)
 Have happy coding  amigos
 
+ ##**Problem 3:**
+
+###### Given a number find the number of trailing zeroes in its factorial.
+
+**Input Format**
+	A single integer - N
+
+**Output Format**
+Print a single integer which is the number of trailing zeroes.
+
+Input Constraints
+
+1 <= N <= 1000
+
+Problem Setter: Practo Tech Team
+
+**SAMPLE INPUT** 
+	10
+**SAMPLE OUTPUT** 
+	2
+**Explanation**
+10! = 3628800 has 2 zeros in the end.
+
  
