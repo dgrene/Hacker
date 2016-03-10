@@ -42,7 +42,7 @@ Minimum Platforms needed on railway station = Maximum platforms
                                               needed at any time 
                                            = 3  
 
-
+ 
 Problem 2: Given a number N. print in how many ways it can be represented as N = a+b+c+d , 1< =a< =b< =c< = d; 1<=N< = 5000
 
 Solution 2) We need to find Prime numbers in range [L,R]. and need to find a highest occuring digit and if frequency is same, the highest number is answer.
