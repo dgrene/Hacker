@@ -93,4 +93,4 @@ So the prime numbers are the unmarked ones: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 
 for Step 2) its simple Array formation, traverse array, % and /  each number by 10 and get digits :)
 Have happy coding  amigos
 
-
+ 
