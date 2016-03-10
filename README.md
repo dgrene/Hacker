@@ -21,7 +21,6 @@ We need to find the maximum number of trains that are there on the given railway
 We can solve the above problem in O(nLogn) time. The idea is to consider all evens in sorted order. Once we have all events in sorted order, we can trace the number of trains at any time keeping track of trains that have arrived, but not departed.
 
 
-----------
 
 
 For example consider the above example.
@@ -57,7 +56,6 @@ departures from total arrivals by that time.
 ----------
 
 
-----------
 
 
 ##**Problem 2:**
