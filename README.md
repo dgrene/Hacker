@@ -58,12 +58,13 @@ departures from total arrivals by that time.
 
 
 
+
 ##**Problem 2:**
 
-**Given a number N. print in how many ways it can be represented as N = a+b+c+d , 1< =a< =b< =c< = d; 1<=N< = 5000**
+###### Given a number N. print in how many ways it can be represented as N = a+b+c+d , 1< =a< =b< =c< = d; 1<=N< = 5000
 
 
-**Solution 2)**
+**Solution**
  We need to find Prime numbers in range [L,R]. and need to find a highest occuring digit and if frequency is same, the highest number is answer.
 What can we do for this program is to divide this prog in 3 parts.
 
@@ -71,7 +72,7 @@ What can we do for this program is to divide this prog in 3 parts.
  2. Create new array from this array with all just digits
 		ex : prime’s array = [2, 3, 5, 7, 11, 13, 17]
 		so new Array will be = [2, 3, 5, 7, 1, 1, 1, 3, 1, 7]
- 3. Find occurrence of each digit like [0,3,1,2,0,1,0,2] (0 comes 0 time, 1 comes 3 times, and so one…)
+ 3. Find occurrence of each digit like `[0,3,1,2,0,1,0,2]` (0 comes 0 time, 1 comes 3 times, and so one…)
 Now get the highest digit, return its index, if such numbers are more than one, return the highest index.
 Coding Soultion :
 **for Step 1)** Use sieve-of-eratosthenes’s code available at http://www.geeksforgeeks.org/sieve-of-eratosthenes/
